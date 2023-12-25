@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-image:  url(./photos/car-photo1.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: ease 0.5s;
+    
+}
+nav ul li a:hover{
+    color: #160bb4;
+    
+}
+
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 90px;
+    margin-top: 180px;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16x;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 100px;
+
+}
+.desc {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 15px 30px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #160bb4;
+    border: 1px solid #160bb4;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #160bb4;
+    border: 1px solid #ffffff;
+
+
+}
+
+.cards{
+ max-width: 900px;
+ margin: auto;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid #160bb4;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 10px 15px;
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    border: 1px solid white;
+}
+
+
+.card .card-head{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 26px;
+}
+
+.card.card-1{
+    background-image: url(/photos/car-num1.png);
+}
+.card.card-2{
+    background-image: url(/photos/car-num2.png);
+}
+.card.card-3{
+    background-image: url(/photos/car-num3.png);
+}
+.card.card-4{
+    background-image: url(/photos/car-num4.png);
+
+}
+.card.card-5{
+    background-image: url(/photos/car-num5.png);
+}
+.card.card-6{
+    background-image: url(/photos/car-num6.png);
+}
